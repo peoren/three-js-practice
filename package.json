@@ -4,6 +4,7 @@
   "description": "threejs",
   "main": "index.js",
   "dependencies": {
+    "dat.gui": "^0.7.9",
     "three": "^0.148.0",
     "vite": "^4.0.4"
   },
