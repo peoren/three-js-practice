@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffcd4c47-7951-4b14-856d-3599b886c7e9" name="Changes" comment="update:渲染盒子和控制器.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="ffcd4c47-7951-4b14-856d-3599b886c7e9" name="Changes" comment="update:创建一个三角形." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +67,10 @@
       <workItem from="1674398567522" duration="8826000" />
       <workItem from="1674487312247" duration="552000" />
       <workItem from="1674487866903" duration="9245000" />
+      <workItem from="1674748356672" duration="707000" />
+      <workItem from="1674807107814" duration="57000" />
+      <workItem from="1674993068855" duration="1299000" />
+      <workItem from="1674995498059" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="update:first commit.">
       <created>1674405786781</created>
@@ -88,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674405939816</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update:加入控制器，坐标轴.">
+      <created>1674748431498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674748431498</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update:加入手动控制.">
+      <created>1674748460571</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674748460571</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +120,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update:first commit." />
     <MESSAGE value="update:渲染盒子和控制器." />
-    <option name="LAST_COMMIT_MESSAGE" value="update:渲染盒子和控制器." />
+    <MESSAGE value="update:加入控制器，坐标轴." />
+    <MESSAGE value="update:加入手动控制." />
+    <option name="LAST_COMMIT_MESSAGE" value="update:加入手动控制." />
   </component>
 </project>

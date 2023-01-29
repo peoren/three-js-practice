@@ -15,10 +15,20 @@ const camera:PerspectiveCamera = new THREE.PerspectiveCamera(50,SCREE_RADIO,.1,1
 camera.position.set(0,0,10)
 scene.add(camera)
 // 创建立方体
-const cubeGeometry = new THREE.BoxGeometry(1,1,1)
+// const cubeGeometry = new THREE.BoxGeometry(1,1,1)
+const vertices = new Float32Array([
+    1,1,1,
+    1,-1,1,
+    -1,-1,1,
+    1,1,1,
+    -1,-1,1,
+    -1,1,1
+])
+const geometry = new THREE.BufferGeometry()
+geometry.setAttribute('position', new THREE.BufferAttribute(vertices, 3))
 const cubeMaterial:MeshBasicMaterial = new  THREE.MeshBasicMaterial({ color: 0xffff00 })
 // 创建物体
-const cube = new THREE.Mesh(cubeGeometry,cubeMaterial)
+const cube = new THREE.Mesh(geometry,cubeMaterial)
 scene.add(cube)
 
 // 创建渲染器
